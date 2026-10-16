@@ -1,0 +1,49 @@
+:root {
+  --bg: #302e2b;
+  --bg-deep: #262421;
+  --panel: #262522;
+  --panel-2: #1f1e1b;
+  --line: #3c3a37;
+  --text: #e8e6e3;
+  --text-dim: #9e9b98;
+  --green: #81b64c;
+  --green-dark: #5d8c34;
+  --red: #e53935;
+  --blue: #42a5f5;
+  --gold: #f7c045;
+
+  color-scheme: dark;
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+}
+
+body {
+  overscroll-behavior: none;
+  /* No double-tap zoom or long-press callouts: feels like a native app on iOS. */
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--green);
+}
